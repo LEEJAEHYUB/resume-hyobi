@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/resume-hyobi/static/css/main.b62e1228.chunk.css",
+    "main.js": "/resume-hyobi/static/js/main.2a2a284f.chunk.js",
+    "main.js.map": "/resume-hyobi/static/js/main.2a2a284f.chunk.js.map",
+    "runtime-main.js": "/resume-hyobi/static/js/runtime-main.14955c56.js",
+    "runtime-main.js.map": "/resume-hyobi/static/js/runtime-main.14955c56.js.map",
+    "static/css/2.8d06fd47.chunk.css": "/resume-hyobi/static/css/2.8d06fd47.chunk.css",
+    "static/js/2.c2213daa.chunk.js": "/resume-hyobi/static/js/2.c2213daa.chunk.js",
+    "static/js/2.c2213daa.chunk.js.map": "/resume-hyobi/static/js/2.c2213daa.chunk.js.map",
+    "index.html": "/resume-hyobi/index.html",
+    "precache-manifest.76f3be320620e1ed7758d311756eddab.js": "/resume-hyobi/precache-manifest.76f3be320620e1ed7758d311756eddab.js",
+    "service-worker.js": "/resume-hyobi/service-worker.js",
+    "static/css/2.8d06fd47.chunk.css.map": "/resume-hyobi/static/css/2.8d06fd47.chunk.css.map",
+    "static/css/main.b62e1228.chunk.css.map": "/resume-hyobi/static/css/main.b62e1228.chunk.css.map",
+    "static/js/2.c2213daa.chunk.js.LICENSE.txt": "/resume-hyobi/static/js/2.c2213daa.chunk.js.LICENSE.txt",
+    "static/media/profile.jpg": "/resume-hyobi/static/media/profile.6a2f4995.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14955c56.js",
+    "static/css/2.8d06fd47.chunk.css",
+    "static/js/2.c2213daa.chunk.js",
+    "static/css/main.b62e1228.chunk.css",
+    "static/js/main.2a2a284f.chunk.js"
+  ]
+}
