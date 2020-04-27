@@ -1,11 +1,27 @@
 import React from "react";
 
 import "./App.css";
+import { Row, Col } from "antd";
+
+import Header from "./components/header/Header";
+import Body from "./components/body/Body";
 
 function App() {
 	return (
-		<div className="App">
-			<h1>Resume for WebPage</h1>
+		<div className="app-container">
+			<div className="container">
+				<Row className="header">
+					<Header />
+				</Row>
+
+				<Row className="body">
+					<Body />
+				</Row>
+
+				<Row className="footer">
+					<Col className="footer-title">Hyobi's RESUME ©2020 Created by HYOBI</Col>
+				</Row>
+			</div>
 		</div>
 	);
 }

@@ -1,0 +1,27 @@
+.card-container {
+	height: 100%;
+	background-color: white;
+	border-style: dashed;
+	border-width: 1px;
+
+	transition: all 0.2s ease;
+}
+
+.card-container:hover {
+	z-index: 100000;
+	transform: scale(1.1);
+}
+
+.card-title {
+	margin-top: -12px;
+	margin-left: 10px;
+
+	width: max-content;
+
+	font-size: 15px;
+	background-color: white;
+}
+
+.card-body {
+	padding: 3%;
+}
