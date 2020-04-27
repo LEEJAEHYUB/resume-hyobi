@@ -1,7 +1,8 @@
 import React from "react";
-
-import "./App.css";
 import { Row, Col } from "antd";
+
+import "antd/dist/antd.css";
+import "./App.css";
 
 import Header from "./components/header/Header";
 import Body from "./components/body/Body";
