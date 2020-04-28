@@ -7,9 +7,8 @@ const ExperienceModal = () => {
 	return (
 		<div className="modal-container">
 			<div className="modal-ex-container">
-				<Col span={5}></Col>
-				<Col span={14}>
-					<Timeline className="timeLine" data-aos="fade-up">
+				<Col span={24}>
+					<Timeline className="timeLine">
 						<Timeline.Item className="timeLineTxt" color="green">
 							<p>2017-08 서경대학교 도시공학과 졸업</p>
 						</Timeline.Item>
@@ -37,7 +36,6 @@ const ExperienceModal = () => {
 						</Timeline.Item>
 					</Timeline>
 				</Col>
-				<Col span={5}></Col>
 			</div>
 		</div>
 	);

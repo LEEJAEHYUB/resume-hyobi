@@ -12,6 +12,8 @@
 	display: none;
 }
 
+/* STRENGTH */
+
 .modal-str-img-container {
 	width: 100%;
 	transform: scale(1.5);
@@ -29,6 +31,8 @@
 	background-color: white;
 	border-radius: 10px;
 }
+
+/* SKILLS */
 
 .modal-skill-img-container {
 	display: flex;
@@ -53,21 +57,25 @@
 	width: 100%;
 }
 
+/* EXPERIENCE */
+
 .modal-ex-container {
 	background-color: white;
 	border-radius: 10px;
 
-	width: 500px;
+	width: 55vh;
 	height: 60vh;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding: 5%;
 
 	transform: scale(1.5);
 }
 
 /* project CSS */
+
 .modal-project-container {
 	margin-top: -30%;
 
@@ -171,4 +179,45 @@
 	justify-content: center;
 
 	font-size: 18px;
+}
+
+@media only all and (max-width: 800px) {
+	.modal-str-img-container {
+		transform: scale(0.8);
+	}
+
+	.modal-skill-container {
+		width: 45vh;
+		transform: scale(0.9);
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		width: 100%;
+	}
+
+	.modal-ex-container {
+		width: 100%;
+		transform: scale(0.7);
+	}
+
+	.timeLineTxt {
+		font-size: 20px;
+	}
+
+	.modal-passion-container {
+		margin: 0;
+		margin-top: -15%;
+		width: 100%;
+		transform: scale(0.9);
+	}
+
+	.modal-passion-img-container {
+		width: 30vh;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
 }
