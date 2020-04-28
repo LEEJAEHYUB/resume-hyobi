@@ -28,3 +28,27 @@
 .body-4 {
 	height: 32%;
 }
+
+@media only screen and (max-width: 800px) {
+	.body-1 {
+		justify-content: center;
+		height: 35%;
+	}
+
+	.body-2 {
+		justify-content: center;
+		height: 55%;
+
+		margin-top: 5%;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+	.body-1 {
+		height: 38%;
+	}
+
+	.body-2 {
+		height: 56%;
+	}
+}

@@ -119,3 +119,58 @@
 	align-items: center;
 	justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 800px) {
+	.card-title {
+		font-size: 8px;
+	}
+
+	.skillBox {
+		flex-wrap: wrap;
+		width: 8px;
+		margin: 0;
+	}
+
+	.skill-title {
+		font-size: 8px;
+	}
+
+	.card-ex-icon {
+		font-size: 10px;
+	}
+
+	.card-ex-text {
+		font-size: 6px;
+	}
+
+	.card-passion-icon-container {
+		font-size: 10px;
+	}
+
+	.card-project-text {
+		font-size: 8px;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+	.skillBox {
+		flex-wrap: wrap;
+		width: 15px;
+	}
+
+	.card-ex-icon {
+		font-size: 30px;
+	}
+
+	.card-ex-text {
+		font-size: 10px;
+	}
+
+	.card-passion-icon-container {
+		font-size: 27px;
+	}
+
+	.card-project-text {
+		font-size: 12px;
+	}
+}

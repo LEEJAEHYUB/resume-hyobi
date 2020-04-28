@@ -48,3 +48,57 @@
 	color: rgb(222, 255, 155);
 	font-weight: bold;
 }
+
+@media only all and (max-width: 800px) {
+	.name {
+		flex-wrap: wrap;
+	}
+
+	.links {
+		word-break: keep-all;
+	}
+
+	.pic-container {
+		width: 50px;
+		height: 50px;
+	}
+
+	.name-title {
+		font-size: 10px;
+	}
+
+	.name-sub {
+		font-size: 8px;
+	}
+
+	.name-desc {
+		font-size: 3px;
+	}
+
+	.header- .icon {
+		font-size: 3px;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+	.pic-container {
+		width: 70px;
+		height: 70px;
+	}
+
+	.name-title {
+		font-size: 13px;
+	}
+
+	.name-sub {
+		font-size: 9px;
+	}
+
+	.name-desc {
+		font-size: 6px;
+	}
+
+	.header- .icon {
+		font-size: 5px;
+	}
+}

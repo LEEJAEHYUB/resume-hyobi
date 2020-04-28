@@ -54,3 +54,19 @@
 .footer-title {
 	color: grey;
 }
+
+@media only screen and (max-width: 800px) {
+	.container {
+		width: 80%;
+	}
+
+	.footer {
+		margin: 3%;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1600px) {
+	.container {
+		width: 60%;
+	}
+}
