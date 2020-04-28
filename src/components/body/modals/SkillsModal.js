@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./css/body-inner.css";
+// import "./css/body-inner.css";
 
-const Exprience = () => {
+const SkillsModal = () => {
 	return (
 		<div className="card-container">
-			<div className="card-title">Exprience</div>
+			<div className="card-title">SkillsModal</div>
 			<div className="card-body">
 				<div>hello</div>
 				<div>hello</div>
@@ -15,4 +15,4 @@ const Exprience = () => {
 	);
 };
 
-export default Exprience;
+export default SkillsModal;

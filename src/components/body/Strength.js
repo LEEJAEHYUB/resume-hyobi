@@ -2,14 +2,14 @@ import React from "react";
 
 import "./css/body-inner.css";
 
+import strength1 from "../../img/strength1.png";
+
 const Strength = () => {
 	return (
 		<div className="card-container">
 			<div className="card-title">Strength</div>
 			<div className="card-body">
-				<div>hello</div>
-				<div>hello</div>
-				<div>hello</div>
+				<img className="card-body-img" src={strength1} alt="str1" />
 			</div>
 		</div>
 	);

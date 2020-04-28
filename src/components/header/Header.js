@@ -16,13 +16,13 @@ const Header = () => {
 				</div>
 			</Col>
 
-			<Col className="header- name" span={10}>
+			<Col className="header- name" span={9}>
 				<div className="header- name-title">LEEJAEHYUB</div>
 				<div className="header- name-sub">Front-End Development</div>
 				<div className="header- name-desc">어제와는 다른 나를 꿈꾸는 개발자 입니다. </div>
 			</Col>
 
-			<Col className="header- links" span={9}>
+			<Col className="header- links" span={10}>
 				<div className="header- icon mobile">
 					<PhoneOutlined /> 010.4136.5511
 				</div>
