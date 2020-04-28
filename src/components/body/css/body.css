@@ -1,0 +1,30 @@
+.body-container {
+	padding: 0.5%;
+	padding-top: 3%;
+
+	width: 100%;
+}
+
+.body- {
+	margin: 1%;
+	width: 100%;
+}
+
+.body-1 {
+	justify-content: center;
+	height: 40%;
+}
+
+.body-2 {
+	justify-content: center;
+	height: 60%;
+}
+
+.body-3 {
+	height: 63%;
+	margin-bottom: 15px;
+}
+
+.body-4 {
+	height: 32%;
+}

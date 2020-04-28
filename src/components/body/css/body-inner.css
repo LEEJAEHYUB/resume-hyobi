@@ -1,0 +1,121 @@
+.card-container {
+	height: 100%;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 10px;
+
+	transition: all 0.2s ease;
+}
+
+.card-container:hover {
+	z-index: 100000;
+	transform: scale(1.1);
+}
+
+.card-title {
+	margin-top: -12px;
+	margin-left: 10px;
+
+	width: max-content;
+
+	font-size: 15px;
+	background-color: white;
+}
+
+.card-body {
+	width: 100%;
+	height: 100%;
+	padding: 3%;
+	padding-top: 0;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-body-img {
+	width: 80%;
+}
+
+.skill-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.skill-title {
+	font-size: 12px;
+}
+
+.skillBox {
+	width: 25px;
+	height: 25px;
+
+	margin: 5px;
+}
+
+.skillImg {
+	width: 100%;
+}
+
+.card-project-container {
+	width: 100%;
+	margin: 5px;
+
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+}
+
+.card-project-img-container {
+	width: 150px;
+}
+
+.card-project-text-container {
+	width: 100px;
+	align-self: center;
+}
+
+.card-project-text {
+	word-break: keep-all;
+	word-wrap: break-word;
+
+	font-size: 18px;
+}
+
+.card-project-img {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px 0.5px grey;
+}
+
+.card-ex-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+
+	width: 100%;
+}
+
+.card-ex-icon {
+	font-size: 80px;
+
+	text-align: center;
+}
+
+.card-ex-text {
+	font-size: 13px;
+
+	word-wrap: break-word;
+	word-break: keep-all;
+}
+
+.card-passion-icon-container {
+	font-size: 45px;
+	width: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}

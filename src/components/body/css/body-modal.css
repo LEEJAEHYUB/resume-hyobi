@@ -1,0 +1,174 @@
+.ant-modal-body {
+	/* background-color: transparent; */
+	padding: 0;
+	margin-top: 15%;
+}
+
+.ant-modal-footer {
+	display: none;
+}
+
+.ant-modal-close {
+	display: none;
+}
+
+.modal-str-img-container {
+	width: 100%;
+	transform: scale(1.5);
+}
+
+.modal-str-img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.modal-skill-container {
+	width: 500px;
+	transform: scale(1.5);
+
+	background-color: white;
+	border-radius: 10px;
+}
+
+.modal-skill-img-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-skill-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.modal-skillBox {
+	width: 50px;
+	margin: 2%;
+	padding: 5px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 5px 2px grey;
+}
+
+.modal-skillImg {
+	width: 100%;
+}
+
+.modal-ex-container {
+	background-color: white;
+	border-radius: 10px;
+
+	width: 500px;
+	height: 60vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	transform: scale(1.5);
+}
+
+/* project CSS */
+.modal-project-container {
+	margin-top: -30%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+}
+
+.modal-project-title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.modal-project-1 {
+	margin: 5%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-intro-container {
+	width: 100px;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}
+
+.modal-intro-container-2 {
+	width: 200px;
+}
+
+.modal-intro-img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.modal-stack-container {
+	width: 300px;
+}
+
+.modal-stack-img {
+	width: 100%;
+}
+
+.modal-project-click {
+	margin-top: 3%;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.modal-project-click:hover {
+	transform: scale(1.2);
+	color: yellowgreen;
+	font-weight: bold;
+}
+
+.modal-project-text {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/* passion */
+
+.modal-passion-container {
+	margin-top: -15%;
+	padding: 1%;
+	border-radius: 10px;
+
+	width: 90vh;
+	background-color: white;
+	margin-left: -20%;
+}
+
+.modal-passion-content-container {
+	margin: 3%;
+	width: 100%;
+	display: flex;
+}
+
+.modal-passion-img-container {
+	width: 200px;
+}
+
+.modal-passion-img {
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 1px 1px 4px 1px grey;
+}
+
+.modal-passion-text-container {
+	margin-left: 4%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	font-size: 18px;
+}
