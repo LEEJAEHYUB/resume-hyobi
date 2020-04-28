@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhaina+2&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap");
+
+* {
+	font-family: "Baloo", "Do Hyeon";
+}
+
 .app-container {
 	height: 100vh;
 

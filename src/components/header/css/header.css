@@ -8,7 +8,7 @@
 }
 
 .hedaer- {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .pic-container {
@@ -22,20 +22,21 @@
 }
 
 .name-title {
+	font-size: 20px;
 	margin-bottom: 15px;
 }
 
 .name-sub {
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .name-desc {
-	font-size: 10px;
+	font-size: 13px;
 }
 
 .header- .icon {
-	margin-bottom: 3%;
-	font-size: 10px;
+	margin-bottom: 2%;
+	font-size: 12px;
 
 	cursor: pointer;
 

@@ -26,12 +26,7 @@ const Header = () => {
 				<div className="header- icon mobile">
 					<PhoneOutlined /> 010.4136.5511
 				</div>
-				<div
-					className="header- icon email"
-					onClick={() => {
-						window.open("https://mail.google.com");
-					}}
-				>
+				<div className="header- icon email" onClick={() => window.open("https://mail.google.com")}>
 					<MailOutlined /> woguqdl20@gmail.com
 				</div>
 				<div
