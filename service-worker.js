@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/resume-hyobi/precache-manifest.32d0ca75fbd1e902e7401bcbe2e73c93.js"
+  "/resume-hyobi/precache-manifest.2fbcf5199877812f11f476a97b055b99.js"
 );
 
 self.addEventListener('message', (event) => {
