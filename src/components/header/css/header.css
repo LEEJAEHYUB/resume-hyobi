@@ -1,104 +1,104 @@
 .header-container {
-	width: 100%;
-	padding: 3%;
+  width: 100%;
+  padding: 3%;
 
-	color: white;
+  color: white;
 
-	align-items: center;
+  align-items: center;
 }
 
 .hedaer- {
-	font-size: 25px;
+  font-size: 25px;
 }
 
 .pic-container {
-	width: 100px;
-	height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .pic-img {
-	border-radius: 20px;
-	width: 100%;
+  border-radius: 20px;
+  width: 100%;
 }
 
 .name-title {
-	font-size: 20px;
-	margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
 .name-sub {
-	font-size: 15px;
+  font-size: 15px;
 }
 
 .name-desc {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 .header- .icon {
-	margin-bottom: 2%;
-	font-size: 12px;
+  margin-bottom: 2%;
+  font-size: 12px;
 
-	cursor: pointer;
+  cursor: pointer;
 
-	transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 .icon:hover {
-	transform: scale(1.2);
-	color: rgb(222, 255, 155);
-	font-weight: bold;
+  transform: scale(1.2);
+  color: rgb(222, 255, 155);
+  font-weight: bold;
 }
 
 @media only all and (max-width: 800px) {
-	.name {
-		flex-wrap: wrap;
-	}
+  .name {
+    flex-wrap: wrap;
+  }
 
-	.links {
-		word-break: keep-all;
-	}
+  .links {
+    word-break: keep-all;
+  }
 
-	.pic-container {
-		width: 50px;
-		height: 50px;
-	}
+  .pic-container {
+    width: 50px;
+    height: 50px;
+  }
 
-	.name-title {
-		font-size: 10px;
-	}
+  .name-title {
+    font-size: 10px;
+  }
 
-	.name-sub {
-		font-size: 8px;
-	}
+  .name-sub {
+    font-size: 8px;
+  }
 
-	.name-desc {
-		font-size: 3px;
-	}
+  .name-desc {
+    font-size: 3px;
+  }
 
-	.header- .icon {
-		font-size: 3px;
-	}
+  .header- .icon {
+    font-size: 3px;
+  }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1600px) {
-	.pic-container {
-		width: 70px;
-		height: 70px;
-	}
+  .pic-container {
+    width: 70px;
+    height: 70px;
+  }
 
-	.name-title {
-		font-size: 13px;
-	}
+  .name-title {
+    font-size: 15px;
+  }
 
-	.name-sub {
-		font-size: 9px;
-	}
+  .name-sub {
+    font-size: 12px;
+  }
 
-	.name-desc {
-		font-size: 6px;
-	}
+  .name-desc {
+    font-size: 8px;
+  }
 
-	.header- .icon {
-		font-size: 5px;
-	}
+  .header- .icon {
+    font-size: 12px;
+  }
 }
